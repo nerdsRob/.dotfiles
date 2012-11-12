@@ -21,3 +21,8 @@
 
 [push]
   default = current
+[user]
+	name = nerdsRob
+	email = robert@soundcloud.com
+[merge]
+	tool = vimdiff
