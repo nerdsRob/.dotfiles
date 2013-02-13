@@ -9,7 +9,10 @@ g () {
 compdef g=git
 
 alias gl='git log --pretty=oneline --decorate --abbrev-commit'
-compdef _git gl=git-lig
+compdef _git gl=git-log
 
 alias gs='git status'
 compdef _git gs=git-status
+
+alias gp='git push'¬
+compdef _git gp=git-push
