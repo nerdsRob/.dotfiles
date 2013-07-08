@@ -4,6 +4,8 @@
 [core]
   excludesfile = ~/.gitignore
   editor       = /usr/bin/vim
+  whitespace = -trailing-space, -blank-at-eof
+
 
 [alias]
   co    = checkout
