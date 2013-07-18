@@ -1,4 +1,6 @@
-alias scios="cd ~/Code/SC-urgent"
+alias scios-old="cd ~/Code/SC-urgent"
+alias scios="cd ~/Code/SoundCloud-RAC"
+alias rake="bundle exec rake"
 alias ll="ls -la -FHG"
 alias ac="open -a AppCode"
 alias webserver='python -m SimpleHTTPServer'
