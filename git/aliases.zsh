@@ -17,4 +17,6 @@ compdef _git gs=git-status
 alias gp='git push'¬
 compdef _git gp=git-push
 
+alias gpr='git pull --rebase --prune'
+
 alias ghell='git submodule foreach --recursive "git submodule sync"'

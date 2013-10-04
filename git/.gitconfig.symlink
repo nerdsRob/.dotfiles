@@ -38,8 +38,7 @@
 	whitespace = fix
 [author]
 	name = Rob Siwek
-	name = =
-	name = =
+	
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [diff]
