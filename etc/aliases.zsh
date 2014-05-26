@@ -12,3 +12,5 @@ alias duplo='/System/Library/Frameworks/CoreServices.framework/Frameworks/Launch
 alias xtj='xctool -workspace SoundCloud.xcworkspace -scheme SoundCloud -sdk iphonesimulator5.0 -configuration Debug run-tests -test-sdk iphonesimulator5.0 -freshSimulator -reporter json-stream:xctool-output.json && subl xctool-output.json'
 # xctool run tests
 alias xt='xctool -workspace SoundCloud.xcworkspace -scheme SoundCloud -sdk iphonesimulator5.0 -configuration Debug run-tests -test-sdk iphonesimulator5.0 -freshSimulator'
+alias frankify='rake Frank BUILD_ENV=frank'
+alias frankify-cleaned='rake clean Frank BUILD_ENV=frank'
